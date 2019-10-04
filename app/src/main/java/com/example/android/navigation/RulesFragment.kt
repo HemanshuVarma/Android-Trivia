@@ -26,7 +26,6 @@ import androidx.appcompat.app.AppCompatActivity
 class RulesFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.title_trivia_rules)
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_rules, container, false)
     }
